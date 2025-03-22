@@ -27,45 +27,7 @@ const Review = () => {
                 </div>
                 <div className='ml-10 text-[20px] cursor-pointer'>READ</div>
             </div>
-            <div className='w-full mt-20 border-t-2 border-zinc-500'></div>
-            <div className="flex justify-between mt-5 rev">
-                <div className=' text-[20px] underline cursor-pointer'>Planetly</div>
-                <div className='text-[20px] font-light'>Nina Walloch</div>
-                <div className='text-[20px]'>READ</div>
-            </div>
-            <div className='w-full mt-5 border-t-2 border-zinc-500'></div>
-            <div className="flex justify-between mt-5 rev">
-                <div className=' text-[20px] underline cursor-pointer'>Planetly</div>
-                <div className='text-[20px] font-light'>Nina Walloch</div>
-                <div className='text-[20px]'>READ</div>
-            </div>
-            <div className='w-full mt-5 border-t-2 border-zinc-500'></div>
-            <div className="flex justify-between mt-5 rev">
-                <div className=' text-[20px] underline cursor-pointer'>Planetly</div>
-                <div className='text-[20px] font-light'>Nina Walloch</div>
-                <div className='text-[20px]'>READ</div>
-            </div>
-            <div className='w-full mt-5 border-t-2 border-zinc-500'></div>
-            <div className="flex justify-between mt-5 rev">
-                <div className=' text-[20px] underline cursor-pointer'>Planetly</div>
-                <div className='text-[20px] font-light'>Nina Walloch</div>
-                <div className='text-[20px]'>READ</div>
-            </div>
-            <div className='w-full mt-5 border-t-2 border-zinc-500'></div>
-            <div className="flex justify-between mt-5 rev">
-                <div className=' text-[20px] underline cursor-pointer'>Planetly</div>
-                <div className='text-[20px] font-light'>Nina Walloch</div>
-                <div className='text-[20px]'>READ</div>
-            </div>
-            <div className='w-full mt-5 border-t-2 border-zinc-500'></div>
-            <div className="flex justify-between mt-5 rev">
-                <div className=' text-[20px] underline cursor-pointer'>Planetly</div>
-                <div className='text-[20px] font-light'>Nina Walloch</div>
-                <div className='text-[20px]'>READ</div>
-            </div>
-            <div className='w-full mt-5 border-t-2 border-zinc-500'></div>
-
-            
+                   
         </div>
     );
 }

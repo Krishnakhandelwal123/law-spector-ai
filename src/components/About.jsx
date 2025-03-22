@@ -1,15 +1,17 @@
 import React from 'react'
-
+import LocomotiveScroll from 'locomotive-scroll'
 const About = () => {
+  const locomotiveScroll = new LocomotiveScroll();
   return (
-    <div data-scroll data-scroll-speed="-0.2" className='text-black w-full py-20 px-16 bg-[#CDEA68] rounded-3xl'>
-      <h1 className='text-[3vw] leading-[4vw] tracking-tight'>At StoreCraft, we are committed to empowering businesses with cutting-edge technology that enhances efficiency, drives informed decisions, and automates critical workflows.</h1>
+    <div data-scroll data-scroll-speed="-0.4" className='text-white  w-full py-20 px-16 bg-[#000814] rounded-3xl'>
+      <h1 className='mb-10 font-bold text-8xl'>About</h1>
+      <h1 className='text-[2vw] leading-[4vw] tracking-tight'>At Law Spector AI, we are committed to empowering legal professionals and businesses with cutting-edge AI technology that enhances efficiency, drives informed decisions, and automates critical legal workflows.</h1>
       <div className='w-full mt-20 border-t-2 border-zinc-700'></div>
       <div className='flex justify-between mt-10'>
         <h1 className='text-[17px] w-[20vw]'>What can you expect:</h1>
-         <div className='w-[30vw] text-[17px] flex flex-col gap-10'>
-          <p>We create tailored Websites to help you to grow your businesses or startups. Whether it’s live or digital, delivered for one or a hundred people.</p>
-          <p>We believe the mix of strategy and design (with a bit of coffee) is what makes your message clear, convincing, and captivating.</p>
+        <div className='w-[30vw] text-[17px] flex flex-col gap-10'>
+          <p>We create tailored legal technology solutions to help law firms, businesses, and startups streamline their legal processes. Whether it’s document analysis, case management, or compliance checking, we deliver powerful AI-driven tools that scale with your needs.</p>
+          <p>We believe the right combination of strategy, design, and technology (with a dash of innovation) is what makes your legal workflows efficient, insightful, and impactful.</p>
         </div>
         <div className='flex flex-col m-10 mr-20'>
           S:
@@ -24,18 +26,19 @@ const About = () => {
       <div className='flex mt-8'>
         <div className='w-[45%]'>
           <h1 className='text-[4vw] mb-6'>Key Features:</h1>
-          <p className='text-[1.2vw] p-2'><span className='text-[2vw]'>• AI Integration:</span> Leverage machine learning algorithms to automate processes and deliver actionable insights that drive growth.
+          <p className='text-[1.2vw] p-2'><span className='text-[2vw]'>•Legal Document Analysis:</span> Upload contracts, agreements, or legal notices for AI-powered insights, summaries, and quick reviews. The AI can highlight important clauses, identify risks, and ensure compliance.
           </p>
-          <p className='text-[1.2vw] p-2'><span className='text-[2vw]'>• Customization:</span>Tailor workflows, settings, and features to match the specific needs of your business.</p>
-          <p className='text-[1.2vw] p-2'><span className='text-[2vw]'>• Inventory Management:</span> Monitor stock levels with AI-driven forecasting to ensure optimal inventory performance.</p>
-          <p className='text-[1.2vw] p-2'><span className='text-[2vw]'>• Analytics & Insights:</span> Access real-time data visualization, custom reports, and predictive analysis to stay ahead of trends.</p>
-          <p className='text-[1.2vw] p-2'><span className='text-[2vw]'>• User Experience:</span> A user-friendly interface designed with modern aesthetics, featuring seamless navigation, minimalistic design, and powerful functionality.</p>
+          <p className='text-[1.2vw] p-2'><span className='text-[2vw]'>• Case Law Research:</span>Search and retrieve relevant case laws, precedents, and legal statutes. The AI can help you find the most applicable case law for a particular case quickly.</p>
+          <p className='text-[1.2vw] p-2'><span className='text-[2vw]'>• Automated Legal Drafting:</span> Generate legal documents like contracts, NDAs, wills, and more. The AI drafts legal documents by leveraging templates and user inputs to ensure accuracy.</p>
+          <p className='text-[1.2vw] p-2'><span className='text-[2vw]'>• Legal Consultation Chatbot:</span> Offer a virtual assistant to answer common legal queries and provide preliminary legal advice. It helps individuals and businesses understand their legal rights and obligations.</p>
+          <p className='text-[1.2vw] p-2'><span className='text-[2vw]'>• Court Case Predictions:</span> Use AI to analyze historical case data, predict potential case outcomes, and evaluate risks. It can also predict the likelihood of success based on previous judgments.</p>
         </div>
-        <div  style={{ backgroundImage: "url('https://static.vecteezy.com/system/resources/previews/028/245/452/large_2x/artificial-intelligence-scattering-head-profile-of-a-chrome-plated-robot-black-background-ai-generated-photo.jpeg')" }} className='bg-cover h-[80vh] bg-center w-[50%] rounded-md ml-20 bg-green-500'>
-              
+        <div
+          style={{ backgroundImage: "url('https://t4.ftcdn.net/jpg/09/68/34/67/360_F_968346724_JFKl4LwZabs66FajbQI1LCjJ6VK3lH5l.jpg')" }}
+          className='bg-cover h-[80vh] bg-center w-[50%] rounded-md ml-20 flex justify-center items-center mt-28'>
         </div>
-
       </div>
+
 
 
 

@@ -9,14 +9,14 @@ const Featured = () => {
 
                     {/* Card 1 */}
                     <div className="relative w-1/2 card">
-                        <h1 className='mt-16 text-2xl'>• Analyse Your Business</h1>
+                        <h1 className='mt-16 text-2xl'>• Legal Document Analysis</h1>
                         <div
-                            className='h-[70vh] mt-10 rounded-lg cursor-pointer bg-cover bg-center relative transition-transform duration-500 ease-in-out transform hover:scale-95'
-                            style={{ backgroundImage: 'url("https://c0.wallpaperflare.com/preview/506/1012/882/action-plan-agenda-analysis-analytics.jpg")' }}
+                            className='h-[50vh] mt-10 rounded-lg cursor-pointer bg-cover bg-center relative transition-transform duration-500 ease-in-out transform hover:scale-95'
+                            style={{ backgroundImage: 'url("https://thumbs.dreamstime.com/b/artificial-intelligence-document-analysis-image-portraying-339895773.jpg")' }}
                         >
                             {/* Additional heading that appears in the center on hover */}
                             <div className='absolute inset-0 flex items-center justify-center transition-opacity duration-500 ease-in-out rounded-lg opacity-0 hover:opacity-100 bg-black/50'>
-                                <h1 className='text-5xl text-white transition-transform duration-500 ease-in-out transform scale-75 hover:scale-100'>Analyse Your Business</h1>
+                                <h1 className='text-5xl text-white transition-transform duration-500 ease-in-out transform scale-75 hover:scale-100'>Analyse Your Document</h1>
                             </div>
                         </div>
                         <div className='flex gap-5 mt-10 mb-10 buttons'>
@@ -28,14 +28,14 @@ const Featured = () => {
 
                     {/* Card 2 */}
                     <div className="relative w-1/2 card">
-                        <h1 className='mt-16 text-2xl'>• Marketing</h1>
+                        <h1 className='mt-16 text-2xl'>• Judgment Prediction</h1>
                         <div
-                            className='bg-cover bg-center rounded-lg mt-10 cursor-pointer h-[70vh] relative transition-transform duration-500 ease-in-out transform hover:scale-95'
-                            style={{ backgroundImage: 'url("https://as1.ftcdn.net/v2/jpg/02/09/58/18/1000_F_209581892_kep7lC1zhRiZwQ9PZJjbveIjgF2hs6US.jpg")' }}
+                            className='bg-cover bg-center rounded-lg mt-10 cursor-pointer h-[50vh] relative transition-transform duration-500 ease-in-out transform hover:scale-95'
+                            style={{ backgroundImage: 'url("https://media.istockphoto.com/id/518280464/vector/vector-vintage-scales-of-justice-icon.jpg?s=612x612&w=0&k=20&c=8K1xg88-x_OlhdttaxIipxkXojuQePJ9W4VaVeiG-pg=")' }}
                         >
                             {/* Additional heading that appears in the center on hover */}
                             <div className='absolute inset-0 flex items-center justify-center transition-opacity duration-500 ease-in-out rounded-lg opacity-0 hover:opacity-100 bg-black/50'>
-                                <h1 className='text-5xl text-white transition-transform duration-500 ease-in-out transform scale-75 hover:scale-100'>Marketing</h1>
+                                <h1 className='text-5xl text-white transition-transform duration-500 ease-in-out transform scale-75 hover:scale-100'>Judgment Prediction</h1>
                             </div>
                         </div>
                         <div className='flex gap-5 mt-10 mb-10 buttons'>
@@ -49,14 +49,14 @@ const Featured = () => {
 
                     {/* Card 3 */}
                     <div className="relative w-1/2 card">
-                        <h1 className='mt-16 text-2xl'>• AI Customization</h1>
+                        <h1 className='mt-16 text-2xl'>• Legal Assistant</h1>
                         <div
-                            className='bg-cover bg-center h-[70vh] mt-10 rounded-lg cursor-pointer relative transition-transform duration-500 ease-in-out transform hover:scale-95'
-                            style={{ backgroundImage: 'url("https://media.istockphoto.com/id/1452604857/photo/businessman-touching-the-brain-working-of-artificial-intelligence-automation-predictive.jpg?s=612x612&w=0&k=20&c=GkAOxzduJbUKpS2-LX_l6jSKtyhdKlnPMo2ito4xpR4=")' }}
+                            className='bg-cover bg-center h-[50vh] mt-10 rounded-lg cursor-pointer relative transition-transform duration-500 ease-in-out transform hover:scale-95'
+                            style={{ backgroundImage: 'url("https://www.liveabout.com/thmb/uYp-sTXqKwAnvpVPIWE6kNeag9E=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Legalassistants-5bdfac424cedfd002672eb9e.jpg")' }}
                         >
                             {/* Additional heading that appears in the center on hover */}
                             <div className='absolute inset-0 flex items-center justify-center transition-opacity duration-500 ease-in-out rounded-lg opacity-0 hover:opacity-100 bg-black/50'>
-                                <h1 className='text-5xl text-white transition-transform duration-500 ease-in-out transform scale-75 hover:scale-100'>AI Customization</h1>
+                                <h1 className='text-5xl text-white transition-transform duration-500 ease-in-out transform scale-75 hover:scale-100'>Legal Assistant</h1>
                             </div>
                         </div>
                         <div className='flex gap-5 mt-10 mb-10 buttons'>
@@ -68,14 +68,14 @@ const Featured = () => {
 
                     {/* Card 4 */}
                     <div className="relative w-1/2 card">
-                        <h1 className='mt-16 text-2xl'>• Sales Management</h1>
+                        <h1 className='mt-16 text-2xl'>• Court Case Prediction</h1>
                         <div
-                            className='bg-cover bg-center rounded-lg mt-10 cursor-pointer h-[70vh] relative transition-transform duration-500 ease-in-out transform hover:scale-95'
-                            style={{ backgroundImage: 'url("https://media.istockphoto.com/id/1384277890/vector/financial-and-investment-data-concept-business-sales-data-progress-of-business-and-growth.jpg?s=612x612&w=0&k=20&c=96zjabSXRyTisoC281nw87jCdZt96ddFz91Pb8VQag4=")' }}
+                            className='bg-cover bg-center rounded-lg mt-10 cursor-pointer h-[50vh] relative transition-transform duration-500 ease-in-out transform hover:scale-95'
+                            style={{ backgroundImage: 'url("https://thumbs.dreamstime.com/b/court-logo-scale-sword-17680619.jpg")' }}
                         >
                             {/* Additional heading that appears in the center on hover */}
                             <div className='absolute inset-0 flex items-center justify-center transition-opacity duration-500 ease-in-out rounded-lg opacity-0 hover:opacity-100 bg-black/50'>
-                                <h1 className='text-5xl text-white transition-transform duration-500 ease-in-out transform scale-75 hover:scale-100'>Sales Management</h1>
+                                <h1 className='text-5xl text-white transition-transform duration-500 ease-in-out transform scale-75 hover:scale-100'>Predict Court Cases</h1>
                             </div>
                         </div>
                         <div className='flex gap-5 mt-10 mb-10 buttons'>
@@ -85,7 +85,8 @@ const Featured = () => {
                     </div>
 
                 </div>
-            </div> 
+            </div>
+            
         </div>
     );
 };

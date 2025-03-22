@@ -1,103 +1,93 @@
 import React from 'react';
 import Eyes from './Eyes';
 import Footer from './Footer';
-
+import LocomotiveScroll from 'locomotive-scroll' 
 const AI = () => {
+  const locomotiveScroll = new LocomotiveScroll();
   return (
-    <div className="min-h-screen p-10 text-white bg-gray-900 animate-fadeIn">
-      {/* Section 1: AI Customization Heading */}
-      <section className="mb-12">
-        <h1 className="mb-6 text-4xl font-bold text-center text-blue-500 ">
-          AI-Powered Customization for Your Business
+    <div className="px-6 py-12 bg-gray-50 md:px-12">
+      <div className="max-w-screen-xl mx-auto text-center">
+        <h1 className="mb-8 text-4xl font-semibold text-gray-800">
+          Key Features of Law Spector AI
         </h1>
-        <p className="text-lg text-center text-gray-400">
-          Our platform allows you to customize AI-driven processes with real-time previews and adjust settings
-          for optimal results.
-        </p>
-      </section>
 
-      {/* Section 2: AI Customization Feature */}
-      <section className="mb-12">
-        <div className="flex flex-col items-center justify-between lg:flex-row">
-          <div className="mb-8 lg:w-1/2 animate-slideInLeft">
-            <h2 className="mb-4 text-3xl font-semibold text-pink-500">AI Customization Features</h2>
-            <p className="mb-4 text-gray-400 w-[40vw]">
-              Fine-tune AI to match your business needs. You can control thresholds, preferences, and the types
-              of models used to process data, ensuring precise AI behavior for specific workflows.
-            </p>
-            <ul className="pl-5 text-gray-400 list-disc">
-              <li>Model customization and preview</li>
-              <li>Real-time impact visualization</li>
-              <li>Seamless integration with your operations</li>
-            </ul>
+        <div className="grid grid-cols-1 gap-12 md:grid-cols-2">
+          {/* Left Section: Features */}
+          <div className="space-y-8 text-lg text-gray-700">
+            <div className="feature-item">
+              <h2 className="text-2xl font-semibold text-green-600">
+                Legal Document Analysis
+              </h2>
+              <p className="mt-2">
+                Upload contracts, agreements, or legal notices, and let Law Spector AI provide AI-powered insights, summaries, and quick reviews. The AI can highlight crucial clauses, identify risks, and ensure compliance with relevant regulations.
+              </p>
+            </div>
+
+            <div className="feature-item">
+              <h2 className="text-2xl font-semibold text-green-600">
+                Case Law Research
+              </h2>
+              <p className="mt-2">
+                Find relevant case laws, precedents, and statutes quickly. Law Spector AI streamlines your research process, helping you access the most applicable legal references with ease.
+              </p>
+            </div>
+
+            <div className="feature-item">
+              <h2 className="text-2xl font-semibold text-green-600">
+                Automated Legal Drafting
+              </h2>
+              <p className="mt-2">
+                Generate legal documents like contracts, NDAs, wills, and more. Law Spector AI drafts accurate documents by leveraging templates and user inputs to ensure precision and minimize errors.
+              </p>
+            </div>
+
+            <div className="feature-item">
+              <h2 className="text-2xl font-semibold text-green-600">
+                Legal Consultation Chatbot
+              </h2>
+              <p className="mt-2">
+                Offer a virtual assistant that provides immediate answers to legal queries. Law Spector AI helps individuals and businesses understand their legal rights and obligations through conversational AI.
+              </p>
+            </div>
+
+            <div className="feature-item">
+              <h2 className="text-2xl font-semibold text-green-600">
+                Court Case Predictions
+              </h2>
+              <p className="mt-2">
+                Use AI to analyze historical case data, predict potential case outcomes, and evaluate risks. Our AI helps you assess the likelihood of success based on previous judgments.
+              </p>
+            </div>
           </div>
-          <img
-            src="https://infusedinnovations.com/hs-fs/hubfs/AI-Generated%20Media/Images/create%20a%20dark%20theme%20image%20with%20blue%20undertones%20that%20shows%20a%20person%20at%20a%20computer%20and%20a%20reference%20to%20an%20innovation%20strategy%20roadmap.jpeg?width=1024&height=1024&name=create%20a%20dark%20theme%20image%20with%20blue%20undertones%20that%20shows%20a%20person%20at%20a%20computer%20and%20a%20reference%20to%20an%20innovation%20strategy%20roadmap.jpeg"
-            alt="AI Customization"
-            className="transition-transform duration-500 transform bg-center bg-cover rounded-lg shadow-lg h-[80vh] w-[45vw] lg:w-1/2 hover:scale-105"
-          />
-        </div>
-      </section>
 
-      {/* Section 3: Chatbot Integration */}
-      <section className="mb-12">
-        <div className="flex flex-col items-center justify-between lg:flex-row">
-          <img
-            src="https://img.freepik.com/premium-vector/abstract-chatbot-ai-artificial-intelligence-chatbot-ai-is-software-application_36402-1499.jpg"
-            alt="AI Chatbot"
-            className="mb-8 transition-transform duration-500 transform bg-center bg-cover rounded-lg shadow-lg lg:w-1/2 lg:mb-0 hover:scale-105 animate-slideInLeft"
-          />
-          <div className="ml-10 lg:w-1/2 animate-slideInRight">
-            <h2 className="mb-4 text-3xl font-semibold text-green-500">Intelligent AI Chatbot</h2>
-            <p className="mb-4 text-gray-400 w-[40vw]">
-              Enhance customer support with our AI-powered chatbot that learns from user interactions and improves over time. Personalize the chatbot’s responses, track conversation analytics, and provide seamless customer service.
-            </p>
-            <ul className="pl-5 text-gray-400 list-disc">
-              <li>Natural language understanding</li>
-              <li>24/7 customer interaction and support</li>
-              <li>Customizable chatbot behavior and tone</li>
-            </ul>
+          {/* Right Section: Image */}
+          <div
+            className="relative mt-24 overflow-hidden rounded-md shadow-lg"
+            style={{
+              backgroundImage:
+                "url('https://t4.ftcdn.net/jpg/09/68/34/67/360_F_968346724_JFKl4LwZabs66FajbQI1LCjJ6VK3lH5l.jpg')",
+              backgroundPosition: 'center',
+              backgroundSize: 'cover',
+              height: '80vh',
+            }}
+          >
+            <div className="absolute inset-0 bg-black opacity-50"></div>
+            <div className="absolute inset-0 flex items-center justify-center text-white">
+              <h2 className="text-3xl font-bold">Revolutionizing Legal Workflows</h2>
+            </div>
           </div>
         </div>
-      </section>
 
-      {/* Section 4: AI Analytics and Insights */}
-      <section className="mb-12">
-        <div className="flex flex-col items-center justify-between lg:flex-row">
-          <div className="mb-8 lg:w-1/2 animate-slideInLeft">
-            <h2 className="mb-4 text-3xl font-semibold text-purple-500">AI Analytics & Insights</h2>
-            <p className="mb-4 text-gray-400 w-[40vw]">
-              Track your AI model’s performance with our analytics tools. Receive insights and recommendations
-              powered by machine learning to optimize your workflow and maximize efficiency.
-            </p>
-            <ul className="pl-5 text-gray-400 list-disc">
-              <li>Real-time analytics for AI processes</li>
-              <li>AI-powered recommendations for process optimization</li>
-              <li>Customizable reports and metrics</li>
-            </ul>
-          </div>
-          <img
-            src="https://miro.medium.com/v2/resize:fit:917/1*EUYe3F3_wktWCw9fsOfylA.png"
-            alt="AI Analytics"
-            className="transition-transform duration-500 transform rounded-lg shadow-lg lg:w-1/2 hover:scale-105 animate-slideInRight"
-          />
+        {/* Additional Sections */}
+        <div className="mt-12 text-center">
+          <h2 className="text-3xl font-semibold text-gray-800">
+            Why Choose Law Spector AI?
+          </h2>
+          <p className="mt-4 text-lg text-gray-600">
+            Leverage cutting-edge AI technology to streamline your legal processes, automate tedious tasks, and enhance decision-making. With Law Spector AI, you gain more time for strategic and impactful work.
+          </p>
         </div>
-      </section>
-
-      {/* Section 5: Call to Action */}
-      <section className="mt-16 text-center animate-fadeIn">
-        <h2 className="mb-4 text-3xl font-semibold text-yellow-500">
-          Discover the Power of AI Customization Today
-        </h2>
-        <p className="mb-8 text-gray-400">
-          Start using our AI-powered tools to transform your business operations and boost efficiency.
-        </p>
-        <button className="px-6 py-3 mb-20 text-white transition duration-300 transform bg-blue-600 rounded-lg hover:bg-blue-500 hover:shadow-lg hover:-translate-y-1">
-          Start Free Trial
-        </button>
-      </section>
-      <Eyes />
-      <Footer />
+      </div>
     </div>
   );
 };

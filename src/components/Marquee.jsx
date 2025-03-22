@@ -10,7 +10,7 @@ const Marquee = () => {
           animate={{ x: "-100%" }} 
           transition={{ ease: "linear", repeat: Infinity, duration: 15 }} 
           className='text-[16vw] tracking-tighter leading-none font-bold mb-[3vw]'>
-           WE ARE STORECRAFT    
+           WE ARE LAW SPECTOR AI    
         </motion.h1> 
         
         <motion.h1 

@@ -1,9 +1,11 @@
 import React from 'react';
 import { FaFacebookF, FaTwitter, FaLinkedinIn, FaInstagram } from 'react-icons/fa';
+import LocomotiveScroll from 'locomotive-scroll';
 
 const Footer = () => {
+  const locomotiveScroll = new LocomotiveScroll();
   return (
-    <footer className="flex flex-col items-center justify-between w-full min-h-screen p-16 text-white bg-black">
+    <footer data-scroll data-scroll-section data-scroll-speed=".3" className="flex flex-col items-center justify-between w-full min-h-screen p-8 text-white bg-zinc-900">
       {/* Top Section with Bold Headings */}
       <div className="flex justify-between w-full">
         {/* Left - Bold Headings */}
@@ -60,8 +62,8 @@ const Footer = () => {
         </form>
       </div>
 
-      {/* Social Media Icons */}
-      <div className="flex mt-12 space-x-6 ">
+      {/* Social Media Icons and Join Button */}
+      <div className="flex items-center mt-8 space-x-6">
         <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="text-white hover:text-gray-400">
           <FaFacebookF size={24} />
         </a>
@@ -74,10 +76,17 @@ const Footer = () => {
         <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="text-white hover:text-gray-400">
           <FaInstagram size={24} />
         </a>
+
+        {/* Join Our Community Now Button */}
+        <a href="/community">
+        <button className="px-6 py-2 text-lg font-semibold text-white transition-colors bg-indigo-600 rounded-full hover:bg-indigo-500">
+          Join Our Community Now
+        </button>
+        </a>
       </div>
 
       {/* Footer Bottom Links */}
-      <div className="flex justify-between w-full mt-auto text-sm text-gray-500 ">
+      <div className="flex justify-between w-full mt-auto text-sm text-gray-500">
         <span>&copy; 2024 YourSaaSApp. All rights reserved.</span>
         <span className="cursor-pointer hover:text-gray-300">Privacy Policy | Terms of Service</span>
       </div>
