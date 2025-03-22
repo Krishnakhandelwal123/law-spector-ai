@@ -9,7 +9,7 @@ const Featured = () => {
 
                     {/* Card 1 */}
                     <div className="relative w-1/2 card">
-                        <h1 className='mt-16 text-2xl'>• Legal Document Analysis</h1>
+                        <h1 className='mt-16 text-2xl'>• Legal Document Creator</h1>
                         <div
                             className='h-[50vh] mt-10 rounded-lg cursor-pointer bg-cover bg-center relative transition-transform duration-500 ease-in-out transform hover:scale-95'
                             style={{ backgroundImage: 'url("https://thumbs.dreamstime.com/b/artificial-intelligence-document-analysis-image-portraying-339895773.jpg")' }}
@@ -49,7 +49,7 @@ const Featured = () => {
 
                     {/* Card 3 */}
                     <div className="relative w-1/2 card">
-                        <h1 className='mt-16 text-2xl'>• Legal Assistant</h1>
+                        <h1 className='mt-16 text-2xl'>• Consult a Lawyer</h1>
                         <div
                             className='bg-cover bg-center h-[50vh] mt-10 rounded-lg cursor-pointer relative transition-transform duration-500 ease-in-out transform hover:scale-95'
                             style={{ backgroundImage: 'url("https://www.liveabout.com/thmb/uYp-sTXqKwAnvpVPIWE6kNeag9E=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Legalassistants-5bdfac424cedfd002672eb9e.jpg")' }}
@@ -68,14 +68,14 @@ const Featured = () => {
 
                     {/* Card 4 */}
                     <div className="relative w-1/2 card">
-                        <h1 className='mt-16 text-2xl'>• Court Case Prediction</h1>
+                        <h1 className='mt-16 text-2xl'>• Legal Document Finder</h1>
                         <div
-                            className='bg-cover bg-center rounded-lg mt-10 cursor-pointer h-[50vh] relative transition-transform duration-500 ease-in-out transform hover:scale-95'
-                            style={{ backgroundImage: 'url("https://thumbs.dreamstime.com/b/court-logo-scale-sword-17680619.jpg")' }}
+                            className='bg-cover  rounded-lg mt-10 cursor-pointer h-[50vh] relative transition-transform duration-500 ease-in-out transform hover:scale-95'
+                            style={{ backgroundImage: 'url("./src/assets/predict.jpg")' }}
                         >
                             {/* Additional heading that appears in the center on hover */}
                             <div className='absolute inset-0 flex items-center justify-center transition-opacity duration-500 ease-in-out rounded-lg opacity-0 hover:opacity-100 bg-black/50'>
-                                <h1 className='text-5xl text-white transition-transform duration-500 ease-in-out transform scale-75 hover:scale-100'>Predict Court Cases</h1>
+                                <h1 className='text-5xl text-white transition-transform duration-500 ease-in-out transform scale-75 hover:scale-100'>Find Legal Document</h1>
                             </div>
                         </div>
                         <div className='flex gap-5 mt-10 mb-10 buttons'>
